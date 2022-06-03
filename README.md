@@ -1,4 +1,4 @@
-# ooo-Bayesian-Modeling-C2
+# ooo-Minkun-Bayesian-Modeling-C2
 
 ## > Kernel ?
 <img src="https://user-images.githubusercontent.com/31917400/75116483-d2b2be00-5660-11ea-89d0-9949fac62a72.jpg" />
