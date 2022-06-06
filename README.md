@@ -23,7 +23,15 @@ The benefit of using the Nonparametric estimator is that there are no assumption
  - **otheres:** smoothing histogram(kde),...giving customized samples(behaving as the covariance) in the random process
 
 ## > What is kernel?
-When youy have a vector **X**, you can develop an empirical pdf without help from parametric assumptions about the underlying distribution. 
+Let's say..when you have a vector **X**, using a `bin` (in histogram), you can develop an empirical pdf without help from parametric assumptions about the underlying distribution. 
+- Story...
+<img src="https://user-images.githubusercontent.com/31917400/172218631-633ff858-4bb2-479e-a2e1-9415525d7fc7.jpg" />
+
+- KDE...
+<img src="https://user-images.githubusercontent.com/31917400/172219794-e3ec762f-3e84-4811-83f2-c0bb0e6298ef.jpg" width="90%" height="90%" />
+
+
+
 
 
 
