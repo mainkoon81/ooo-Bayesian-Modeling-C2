@@ -23,10 +23,17 @@ The benefit of using the Nonparametric estimator is that there are no assumption
  - **otheres:** smoothing histogram(kde),...giving customized samples(behaving as the covariance) in the random process
 
 ## > What is kernel?
+When youy have a vector **X**, you can develop an empirical pdf without help from parametric assumptions about the underlying distribution. 
+
+
+
+## > What is Fourier-Transformation?
 
 
 
 
+
+## > Having a mismeasured predictor? :::: kernel + Fourier-Transformation
 
 
 
