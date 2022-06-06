@@ -14,7 +14,7 @@ The benefit of using the Nonparametric estimator is that there are no assumption
  - The weight can be computed as the **kernel function** of "x" (`the x value for the point(y) that we want to predict`) and ![formula](https://render.githubusercontent.com/render/math?math=x_i) (the position of the `i`th neighbor point). 
  - In Gaussian kernel, if we take a higher value of sigma, the values would drop slower obviously, so you can weight further points a bit higher...getting closer to Uniform?  If sigma is low then the kernel would quickly drop to zero, so each point can get extreme weight. so..sigma is a sort of resistance?
  - In Uniform kernel, we equally weigh the points. 
-   <img src="https://user-images.githubusercontent.com/31917400/75113588-1ac4e700-5647-11ea-9ccd-577e091f44b2.jpg" />
+   <img src="https://user-images.githubusercontent.com/31917400/75113588-1ac4e700-5647-11ea-9ccd-577e091f44b2.jpg" width="70%" height="70%"/>
 
 ## > Kernel ?
 `A kernel is a weighting function..by calculating each kernel value for each data point.`
@@ -24,10 +24,10 @@ The benefit of using the Nonparametric estimator is that there are no assumption
 
 ## > What is kernel?
 Let's say..when you have a vector **X**, using a `bin` (in histogram), you can develop an empirical pdf without help from parametric assumptions about the underlying distribution. 
-- Story...
+- **(A) Introduction**
 <img src="https://user-images.githubusercontent.com/31917400/172218631-633ff858-4bb2-479e-a2e1-9415525d7fc7.jpg" />
 
-- KDE...
+- **(B) KDE and basic kernel**
 <img src="https://user-images.githubusercontent.com/31917400/172219794-e3ec762f-3e84-4811-83f2-c0bb0e6298ef.jpg" width="90%" height="90%" />
 
 
