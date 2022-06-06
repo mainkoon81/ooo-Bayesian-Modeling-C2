@@ -16,8 +16,8 @@ The benefit of using the Nonparametric estimator is that there are no assumption
  - In Uniform kernel, we equally weigh the points. 
    <img src="https://user-images.githubusercontent.com/31917400/75113588-1ac4e700-5647-11ea-9ccd-577e091f44b2.jpg" width="70%" height="70%"/>
 
-## > K(center-pt, target-pt) ?
-`A kernel is a weighting function, determining each kernel value(1/0) for each data point and computing the **proportion** that is associated with a certain bin.` `center-pt` delivers the bin_ID information while `target-pt` is what we investigate. 
+## > K(`center-pt`, `target-pt`) ?
+A kernel is used for weighting, determining each kernel value(1/0) for each data point and computing the **proportion** that is associated with a certain bin. `center-pt` delivers the bin_ID information while `target-pt` is what we investigate. 
  - **classification(svm):** creating customized feature space
  - **regression(knn):** weighting neighboring points
  - **otheres:** smoothing histogram(kde),...giving customized samples(behaving as the covariance) in the random process
