@@ -16,14 +16,14 @@ The benefit of using the Nonparametric estimator is that there are no assumption
  - In Uniform kernel, we equally weigh the points. 
    <img src="https://user-images.githubusercontent.com/31917400/75113588-1ac4e700-5647-11ea-9ccd-577e091f44b2.jpg" width="70%" height="70%"/>
 
-## > Kernel ?
-`A kernel is a weighting function..by calculating each kernel value for each data point.`
+## > K(center-pt, target-pt) ?
+`A kernel is a weighting function, determining each kernel value(1/0) for each data point and computing the **proportion** that is associated with a certain bin.` `center-pt` delivers the bin_ID information while `target-pt` is what we investigate. 
  - **classification(svm):** creating customized feature space
  - **regression(knn):** weighting neighboring points
  - **otheres:** smoothing histogram(kde),...giving customized samples(behaving as the covariance) in the random process
 
 ## > What is kernel?
-Let's say..when you have a vector **X**, using a `bin` (in histogram), you can develop an empirical pdf without help from parametric assumptions about the underlying distribution. 
+Let's say..when you have a vector **X**, using a `bin` (in histogram), you can develop an empirical pdf `f(X)` without help from parametric assumptions about the underlying distribution. This empirical pdf `f(X)` uses a **kernel function** (classification function to accept/reject the data-pt by measuring a certain distance) that explains what's goin on inside the **`hypercube`** (bin). The sum of outputs of the **kernel function** returns total NO.of data-pt falling into the **`hypercube`** (bin) which is **k**.  
 - **(A) Introduction**
 <img src="https://user-images.githubusercontent.com/31917400/172218631-633ff858-4bb2-479e-a2e1-9415525d7fc7.jpg" />
 
