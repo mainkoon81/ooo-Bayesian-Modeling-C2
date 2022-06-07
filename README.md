@@ -35,37 +35,15 @@ Let's say..when you have a vector **X**, using a `bin` (in histogram), you can d
 ## > What is Fourier-Transform?
 <img src="https://user-images.githubusercontent.com/31917400/172354035-7407dc1f-a9d5-472c-8b84-aabd9ae69929.jpg" />
 
-### Fourier Transform is a mathematical operation that changes the domain (x-axis) of a signal from `time` to `frequency`. In other words, it decomposes a complex wave (a function of time) into the many different waves (made out of sin, cos) that make it up. 
+### Fourier Transform is a mathematical operation that changes the domain (x-axis) of a signal from `time` to `frequency`. In other words, it decomposes a complex wave (a function of time) into the many different waves (made out of sin, cos) that make it up. Of course, `i` is the imaginary unit, sqrt(-1). 
 <img src="https://user-images.githubusercontent.com/31917400/172407918-a07b98f8-70b6-4e3b-a105-5440802c3430.jpg" />
 
 ### If `F(f)` is known, the original function `f(t)` can be obtained by "Inverse Fourier Transform"
 <img src="https://user-images.githubusercontent.com/31917400/172410112-274a7ed2-903e-4151-914c-da66a87bf7b6.jpg" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-### `Fourier series` is complex-valued functions on a circle. The input will be a **point on the circle**. The output will be a **complex number**. 
-   - We denote the circle as **S**, having radius 1.
-   - If you rotate a function on a circle, you get a function on a circle. Take a piece of string and connect the two ends, then you can make a circle. we can graph a function on a circle by graphing it on a line segment; the fact that the left and right ends have to be connected.
-   - functions are vectors: they can be added, multiplied by a constant, and there is a 0 function. 
-   - Now, the thing being acted on the functions can be decomposed into constituent parts. we can break down a complicated thing into the sum of a number of simple parts.
-   - `Rotation is Multiplication`. Look at what happens when we rotate it by an angle `a`. The rotation is the same as **shifting the argument to the function by `a`**. Of course, `i` is the imaginary unit, sqrt(-1).    
-   - But...the thing is...the functions in our buckets have to satisfy the property that **rotating them is the same as multiplying them**. And the functions below, where `n` is any integer, are exactly the functions that do satisfy this property where the coefficients `a` just tell us how much of each function to take. This decomposition is called the **Fourier Series**. Therefore, we can write any function on the circle as a sum of such functions: 
-  <img src="https://user-images.githubusercontent.com/31917400/172370167-dc8a8cc7-2a6c-499c-8cf4-2e69ffe3687f.jpg" />
+### `Fourier series` is complex-valued functions on a circle. The input will be a **point on the circle**. The output will be a **complex number**.
+If rotating a function on a circle, we can graph a function on a circle by graphing it on a line segment (the left and right ends have to be connected). The functions are vectors: they can be added, multiplied by a constant. `Rotation is Multiplication`. Look at what happens when we rotate it by an angle `a`. The rotation is the same as **shifting the argument to the function by `a`**. The thing is... the functions in our buckets have to satisfy the property that **rotating them is the same as multiplying them**. And the functions below, where `f` is any integer, are exactly the functions that do satisfy this property where the coefficients `a` just tell us how much of each function to take. This decomposition is called the **Fourier Series**. Therefore, we can write any function on the circle as a sum of such functions: 
+  <img src="https://user-images.githubusercontent.com/31917400/172415320-2f35ab15-bf0c-4685-83b7-d43ed1a3617b.jpg" />
 
 
 
