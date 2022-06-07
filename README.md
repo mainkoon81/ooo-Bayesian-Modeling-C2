@@ -32,10 +32,31 @@ Let's say..when you have a vector **X**, using a `bin` (in histogram), you can d
 
 
 
-## > What is Fourier-Transformation?
-### Fourier Transform is a mathematical operation that changes the domain (x-axis) of a signal from `time` to `frequency`. In other words, it decomposes a waveform (a function of time) into the **`frequencies`** that make it up. 
-The convolution of two signals is equivalent to the multiplication of their Fourier transforms. Therefore, by transforming the `input` into `frequency space`, a convolution becomes a single element-wise multiplication.  
+## > What is Fourier-Transform?
 <img src="https://user-images.githubusercontent.com/31917400/172354035-7407dc1f-a9d5-472c-8b84-aabd9ae69929.jpg" />
+
+### Fourier Transform is a mathematical operation that changes the domain (x-axis) of a signal from `time` to `frequency`. In other words, it decomposes a complex wave (a function of time) into the many different waves (made out of sin, cos) that make it up. 
+<img src="https://user-images.githubusercontent.com/31917400/172407918-a07b98f8-70b6-4e3b-a105-5440802c3430.jpg" />
+
+### If `F(f)` is known, the original function `f(t)` can be obtained by "Inverse Fourier Transform"
+<img src="https://user-images.githubusercontent.com/31917400/172410112-274a7ed2-903e-4151-914c-da66a87bf7b6.jpg" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 ### `Fourier series` is complex-valued functions on a circle. The input will be a **point on the circle**. The output will be a **complex number**. 
    - We denote the circle as **S**, having radius 1.
