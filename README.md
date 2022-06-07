@@ -46,17 +46,8 @@ If rotating a function on a circle, we can graph a function on a circle by graph
   <img src="https://user-images.githubusercontent.com/31917400/172415320-2f35ab15-bf0c-4685-83b7-d43ed1a3617b.jpg" />
 
 
-
-
-
-
-
-
-
-
-
-
 ## > Having a mismeasured predictor? :::: kernel + Fourier-Transformation
+<img src="https://user-images.githubusercontent.com/31917400/172438251-3bd4df99-de97-4563-90c2-e3981b4926c1.jpg" />
 
 
 
