@@ -35,6 +35,8 @@ Let's say..when you have a vector **X**, using a `bin` (in histogram), you can d
 ## > What is Fourier-Transformation?
 <img src="https://user-images.githubusercontent.com/31917400/172354035-7407dc1f-a9d5-472c-8b84-aabd9ae69929.jpg" />
 
+ - `Fourier series` is complex-valued functions on a circle. The input will be a point on the circle. The output will be a complex number. 
+ - 
 
 
 
