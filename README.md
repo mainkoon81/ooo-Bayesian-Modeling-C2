@@ -47,7 +47,7 @@ If rotating a function on a circle, we can graph a function on a circle by graph
 
 
 ## > Having a mismeasured predictor? :::: kernel + Fourier-Transformation
-The `characteristic function` is the **Fourier transform of the pdf**!!!
+The `characteristic function` is the **Fourier transform of the pdf**!!! If a random variable admits a pdf, then its characteristic function is the Fourier transform of the pdf.
 
 <img src="https://user-images.githubusercontent.com/31917400/172446192-3af9210d-52eb-44f0-972e-bc5296f28d12.jpg" />
 
