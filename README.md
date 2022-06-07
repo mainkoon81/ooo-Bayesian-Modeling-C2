@@ -35,8 +35,14 @@ Let's say..when you have a vector **X**, using a `bin` (in histogram), you can d
 ## > What is Fourier-Transformation?
 <img src="https://user-images.githubusercontent.com/31917400/172354035-7407dc1f-a9d5-472c-8b84-aabd9ae69929.jpg" />
 
- - `Fourier series` is complex-valued functions on a circle. The input will be a point on the circle. The output will be a complex number. 
- - 
+ - `Fourier series` is complex-valued functions on a circle. The input will be a **point on the circle**. The output will be a **complex number**. 
+   - We denote the circle as **S**, having radius 1.
+   - If you rotate a function on a circle, you get a function on a circle. Take a piece of string and connect the two ends, then you can make a circle. we can graph a function on a circle by graphing it on a line segment; the fact that the left and right ends have to be connected.
+   - functions are vectors: they can be added, multiplied by a constant, and there is a 0 function. 
+   - Now, the thing being acted on the functions can be decomposed into constituent parts. we can break down a complicated thing into the sum of a number of simple parts.
+ - `Rotation is Multiplication`. Look at what happens when we rotate it by an angle `a`. The rotation is the same as **shifting the argument to the function by `a`**. Of course, `i` is the imaginary unit, sqrt(-1).    
+   - But...the thing is...the functions in our buckets have to satisfy the property that **rotating them is the same as multiplying them**. And the functions below, where n is any integer, are exactly the functions that do satisfy this property. Therefore, we can write any function on the circle as a sum of such functions: 
+  <img src="https://user-images.githubusercontent.com/31917400/172367395-a57ffe05-65b2-44ac-8d5a-be461f4bb75c.jpg" />
 
 
 
