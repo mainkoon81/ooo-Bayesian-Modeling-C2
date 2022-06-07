@@ -32,10 +32,16 @@ Let's say..when you have a vector **X**, using a `bin` (in histogram), you can d
 
 
 
-
-
-
 ## > What is Fourier-Transformation?
+<img src="https://user-images.githubusercontent.com/31917400/172354035-7407dc1f-a9d5-472c-8b84-aabd9ae69929.jpg" />
+
+
+
+
+
+
+
+
 
 
 
